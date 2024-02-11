@@ -32,10 +32,10 @@ button {
   background-color: #1a4570; /* Azul oscuro para botones */
   color: white;
   border: none;
-  padding: 15px 30px; /* Ajusta el tamaño de los botones según sea necesario */
+  padding: 15px 30px; 
   border-radius: 8px;
   cursor: pointer;
-  font-size: 16px; /* Ajusta el tamaño del texto de los botones según sea necesario */
+  font-size: 16px; 
   transition: background-color 0.3s ease;
 }
 
@@ -44,7 +44,27 @@ button:hover {
 }
 
 #turnCount {
-  font-size: 20px; /* Ajusta el tamaño del contador de turnos según sea necesario */
+  font-size: 20px; 
 }
 
+.player-names input {
+  width: 300px;
+  padding: 5px; 
+  margin-top: 5px;
+  margin-bottom: 5px; 
+}
+
+.seccion_bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px; 
+}
+
+.board-size,
+.Reset-game,
+.turn-counter {
+  flex: 1;
+  margin-right: 20px; 
+}
 
